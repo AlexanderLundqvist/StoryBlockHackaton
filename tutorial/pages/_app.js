@@ -4,6 +4,8 @@ import Feature from "../components/Feature";
 import Grid from "../components/Grid";
 import Page from "../components/Page";
 import Teaser from "../components/Teaser";
+import Header from "../components/Header";
+import Button from "../components/Button";
 
 /* TIPS:
  * Här kopplar du ihop komponenter från din kod med storybloks blok
@@ -13,6 +15,8 @@ const components = {
   grid: Grid,
   teaser: Teaser,
   page: Page,
+  header: Header,
+  button: Button
   // storybloks-komponent-namn: kod-komponent-namn
 };
 

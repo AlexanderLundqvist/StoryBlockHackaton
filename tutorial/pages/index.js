@@ -10,10 +10,9 @@ import {
 /* TIPS:
  * Den här komponenten renderar ut Home
  */
-
 export default function Home({ story }) {
   story = useStoryblokState(story);
-
+    console.log(story.content)
   return (
     <div className={styles.container}>
       <Head>
@@ -22,8 +21,8 @@ export default function Home({ story }) {
       </Head>
 
       <header>
-        <h1>{story ? story.name : "My Site"}</h1>
-      </header>
+{/*         <h1>{story ? story.name : "My Site"}</h1>
+ */}      </header>
       {/* TIPS:
        * StoryblokComponent renderar ut de blok ni lagt på Home sidan
        */}
